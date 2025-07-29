@@ -10,17 +10,6 @@ This project is a classic **Snake game** implemented using **Pygame**, trained w
 
 ---
 
-## 📁 Project Structure
-
-snake-pygame/
-│
-├── agent.py # Core agent logic (DQN-based)
-├── game.py # Snake game environment (Pygame-based)
-├── model.py # Neural network model and trainer
-├── helper.py # Real-time score plotting using matplotlib
-├── model/ # Saved trained models (.pth files)
-└── README.md # Project documentation
-
 ## 🧠 How It Works
 
 The AI agent learns using the **Deep Q-Learning** algorithm:
@@ -53,3 +42,29 @@ The training progress (score & mean score) is visualized in real-time using `mat
 - Pygame
 - Matplotlib
 - NumPy
+
+  ### 🔁 1. Clone the Repository
+
+```bash
+git clone https://github.com/abhaymani421/SnakeGame_ReinforcementLearning.git
+cd SnakeGame_ReinforcementLearning
+```
+
+  ### 🐍 2. Create and Activate the Conda Environment
+
+```bash
+conda create -n pygame_env python=3.7
+conda activate pygame_env
+```
+
+  ### 📦 3. Install Required Packages
+
+```bash
+pip install pygame torch torchvision matplotlib ipython
+```
+
+  ### 🚀 4. Run the Game or Training Script
+
+```bash
+python agent.py
+```
