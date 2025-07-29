@@ -6,9 +6,7 @@ This project is a classic **Snake game** implemented using **Pygame**, trained w
 
 ## 🎮 Demo
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/your-gif-or-image-link.gif" width="600"/>
-</p>
+![Game Preview](assests/Demo.png)
 
 ---
 
@@ -43,6 +41,8 @@ The AI agent learns using the **Deep Q-Learning** algorithm:
 ## 📈 Live Plotting
 
 The training progress (score & mean score) is visualized in real-time using `matplotlib`.
+
+![Game Preview](assests/Graph.png)
 
 ---
 
